@@ -35,7 +35,7 @@ class App extends Component {
         <UserInput changeUsername={this.changeUsernameHandler} value={this.state.username} />
         <UserOutput username={this.state.username} />
         <UserOutput username={this.state.username} />
-        <UserOutput username="MungKung" />
+        <UserOutput username="VectorXz" />
       </div>
     );
   }
