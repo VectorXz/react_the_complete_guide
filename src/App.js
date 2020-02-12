@@ -23,7 +23,8 @@ class App extends Component {
     word.splice(index, 1)
     console.log(word)
     this.setState({
-      word: word.join('')
+      word: word.join(''),
+      length: word.length
     })
   }
   render() {
